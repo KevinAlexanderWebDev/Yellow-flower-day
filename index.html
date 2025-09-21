@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yellow Flower 🌸</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>For my Flower 🌻</h1>
+      <p class="description">
+        From afar, a small flower with your name is given to the most beautiful
+        woman in the world, you... I love you. ♥️
+      </p>
+      <div class="flower-container">
+        <svg viewBox="0 0 200 300" class="flower" aria-label="Flor animada">
+          <rect
+            x="95"
+            y="150"
+            width="10"
+            height="150"
+            fill="url(#stemGradient)"
+            class="stem"
+          />
+
+          <ellipse
+            cx="75"
+            cy="200"
+            rx="20"
+            ry="10"
+            fill="url(#leafGradient)"
+            class="leaf left"
+          />
+          <ellipse
+            cx="125"
+            cy="200"
+            rx="20"
+            ry="10"
+            fill="url(#leafGradient)"
+            class="leaf right"
+          />
+
+          <g class="petals">
+            <ellipse
+              cx="100"
+              cy="60"
+              rx="20"
+              ry="40"
+              transform="rotate(0 100 100)"
+              fill="url(#petalGradient)"
+            />
+            <ellipse
+              cx="100"
+              cy="60"
+              rx="20"
+              ry="40"
+              transform="rotate(72 100 100)"
+              fill="url(#petalGradient)"
+            />
+            <ellipse
+              cx="100"
+              cy="60"
+              rx="20"
+              ry="40"
+              transform="rotate(144 100 100)"
+              fill="url(#petalGradient)"
+            />
+            <ellipse
+              cx="100"
+              cy="60"
+              rx="20"
+              ry="40"
+              transform="rotate(216 100 100)"
+              fill="url(#petalGradient)"
+            />
+            <ellipse
+              cx="100"
+              cy="60"
+              rx="20"
+              ry="40"
+              transform="rotate(288 100 100)"
+              fill="url(#petalGradient)"
+            />
+          </g>
+
+          <circle
+            cx="100"
+            cy="100"
+            r="15"
+            fill="url(#centerGradient)"
+            class="center"
+          />
+
+          <defs>
+            <radialGradient id="petalGradient" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#fff176" />
+              <stop offset="30%" stop-color="#ffeb3b" />
+              <stop offset="100%" stop-color="#fbc02d" />
+            </radialGradient>
+
+            <radialGradient id="centerGradient" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#ffeb3b" />
+              <stop offset="100%" stop-color="#f4c542" />
+            </radialGradient>
+
+            <linearGradient id="stemGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+              <stop offset="0%" stop-color="#4caf50" />
+              <stop offset="100%" stop-color="#8bc34a" />
+            </linearGradient>
+
+            <radialGradient id="leafGradient" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#00ff99" />
+              <stop offset="100%" stop-color="#009966" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+    </main>
+    <footer>
+      <p>Created with lots of petal and flower waste 🌼 <strong>Kevin Alexander Meza Morales</strong></p>
+      <p>For my beloved flower, which blooms every day with its own light.</p>
+    </footer>
+  </body>
+</html>
