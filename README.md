@@ -33,7 +33,7 @@ Web developer and logic enthusiast, passionate about learning new things, unleas
 You can view this project on GitHub Pages or clone it to customize it even further.
 
 ```bash
-git clone https://github.com/your-username/flor-psicodelica.git
+git clone https://github.com/KevinAlexanderWebDev/Yellow-flower-day
 
 
 # 🌻 Micro-Proyecto: Flor Floreciendo
@@ -71,4 +71,4 @@ Desarrollador web y lógico apasionado por aprender cosas nuevas, dar rienda sue
 Puedes ver este proyecto en GitHub Pages o clonarlo para personalizarlo aún más.
 
 ```bash
-git clone https://github.com/tu-usuario/flor-psicodelica.git
+git clone https://github.com/KevinAlexanderWebDev/Yellow-flower-day
